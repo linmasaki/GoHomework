@@ -1,0 +1,36 @@
+{
+    "go.useLanguageServer": true,
+    "go.languageServerExperimentalFeatures": {
+        "diagnostics": false,
+        "documentLink": true,
+    },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#8bc0dc",
+        "activityBar.activeBorder": "#cb54a2",
+        "activityBar.background": "#8bc0dc",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#cb54a2",
+        "activityBarBadge.foreground": "#15202b",
+        "statusBar.background": "#64abd0",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#3d96c4",
+        "titleBar.activeBackground": "#64abd0",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#64abd099",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#64abd0"
+}
